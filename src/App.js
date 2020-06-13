@@ -1,21 +1,26 @@
 import React from 'react'
 // import logo from './logo.svg';
 import './App.css'
-import One from './One'
-import Two from './Two'
-import Three from './Three'
+// import One from './One'
+// import Two from './Two'
+// import Three from './Three'
+// import Four from './Four'
+// import Practice from './Practice'
+// import Five from './Five'
+// import Seven from './Seven'
+// import Nine from './Nine'
+// import Children from './Children'
 
-import Four from './Four'
+import PropsType from './PropsType'
 
-import Practice from './Practice'
+import Life from './Life'
 
-import Five from './Five'
+import Lifestate from './Lifestate'
+import Liftprop from './Lifeprop'
 
-import Seven from './Seven'
-
-import Nine from './Nine'
-
-import Children from './Children'
+import Renderprops from './Renderprops'
+import Hoc1 from './Hoc1'
+import Hoc2 from './Hoc2'
 
 // import Header from './Header'
 
@@ -30,34 +35,42 @@ function App () {
       没有挂载行为
       <Header/>
        */}
-
-      <Children/>
+      <Hoc2/>
       <hr/>
-      <Nine/>
-
+      <Hoc1/>
       <hr/>
-      <Seven/>
+      <Renderprops/>
 
       <hr/>
 
-      <Five/>
+      <PropsType/>
 
       <hr/>
 
-      <One/>
-
-      <Two/>
-
+      <Life/>
       <hr/>
-
-      <Three/>
-
-
-      <Four/>
-
+      <Lifestate/>
       <hr/>
+      <Liftprop/>
 
-      <Practice/>
+
+      {/* <hr/>*/}
+
+      {/*<Children/>*/}
+      {/*<hr/>*/}
+      {/*<Nine/>*/}
+      {/*<hr/>*/}
+      {/*<Seven/>*/}
+      {/*<hr/>*/}
+      {/*<Five/>*/}
+      {/*<hr/>*/}
+      {/*<One/>*/}
+      {/*<Two/>*/}
+      {/*<hr/>*/}
+      {/*<Three/>*/}
+      {/*<Four/>*/}
+      {/*<hr/>*/}
+      {/*<Practice/>*/}
     </div>
   )
 }
