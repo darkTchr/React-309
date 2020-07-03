@@ -1,5 +1,5 @@
 import React from 'react'
-import { func } from 'prop-types'
+// import { func } from 'prop-types'
 
 const Acom = props => {
   const { num, msg, count, list } = props
@@ -59,15 +59,13 @@ class Hoc2 extends React.Component {
   }
 }
 
-
-
 export default Hoc2
 
 
 
 /*
 * 总结：  hoc就是工厂 --》 加工旧组件 ——增加零件--》 返回新组件
-* */
+*/
 
 
 
